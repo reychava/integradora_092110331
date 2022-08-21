@@ -75,7 +75,7 @@
                         //boton de eliinar cliente 
                         echo "<td> <a class='btn btn-danger' href='eliminar_cliente.php?codigo=".$fila['codigo']."'> Eliminar </a> </td>";
                         //boton de modificar datos del cliente 
-                        echo "<td> <a class='btn btn-warning' href='actualizar_cliente.php?codigo=".$fila['codigo']."&nombre=".$fila['nombre']."&edad=".$fila['edad']."&sexo=".$fila['sexo']."&mensualidad=".$fila['mensualidad']."&precio=".$fila['precio']."'> Modificar </a> </td>";
+                        echo "<td> <a class='btn btn-info' href='actualizar_cliente.php?codigo=".$fila['codigo']."&nombre=".$fila['nombre']."&edad=".$fila['edad']."&sexo=".$fila['sexo']."&mensualidad=".$fila['mensualidad']."&precio=".$fila['precio']."'> Modificar </a> </td>";
                         echo "</tr>";
                         }
                     } else {

@@ -90,7 +90,7 @@
                         </div>
 
                         <div class="d-grid gap-2 col-6 mx-auto">
-                            <button class="btn btn-success mb-3">Actualizar</button>
+                            <button class="btn btn-info mb-3">Actualizar</button>
                         </div>
                     </form>
                 </div>
